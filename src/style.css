@@ -62,7 +62,8 @@ h1 {
   margin-bottom: 2rem;
 }
 
-header a {
+.downArrow {
+  color: white;
   display: inline-block;
   margin-top: 1rem;
   font-size: 2.5rem;
@@ -93,4 +94,27 @@ p {
   padding: 1rem 2rem;
   display: inline-block;
   margin-top: 1rem;
+}
+
+.banner {
+  background-image: url("https://source.unsplash.com/hYAkdFZb-Yg");
+  background-size: cover;
+  background-position: center;
+  min-height: 70vh;
+  text-align: center;
+}
+
+.bigText {
+  color: white;
+  font-size: 3rem;
+}
+
+.bgImage {
+  background-image: url("https://source.unsplash.com/a5uptAdUmjE");
+  background-position: 50% 70%;
+  border: 1px solid black;
+  display: inline-block;
+  width: 31%;
+  padding: 5%;
+  padding-bottom: 50%;
 }
