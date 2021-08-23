@@ -109,14 +109,29 @@ p {
   font-size: 3rem;
 }
 
-.bgImage {
-  background-image: url("https://source.unsplash.com/a5uptAdUmjE");
-  background-position: 50% 70%;
+.bgImageA,
+.bgImageB,
+.bgImageC {
   border: 1px solid black;
   display: inline-block;
-  width: 31%;
+  width: 32%;
   padding: 5%;
   padding-bottom: 50%;
+}
+
+.bgImageA {
+  background-image: url("https://source.unsplash.com/a5uptAdUmjE");
+  background-position: 50% 70%;
+}
+
+.bgImageB {
+  background-image: url("https://source.unsplash.com/5cwigXmGWTo");
+  background-position: 40% 50%;
+}
+
+.bgImageC {
+  background-image: url("https://source.unsplash.com/a5uptAdUmjE");
+  background-position: 70% 30%;
 }
 
 footer {
