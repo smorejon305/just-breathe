@@ -55,6 +55,9 @@ header {
   text-align: center;
   padding: 25vh 5%;
   min-height: 100vh;
+  background-position: 50% 50%; 
+  background-repeat: no-repeat; 
+  background-size: cover; 
 }
 
 h1 {
